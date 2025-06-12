@@ -52,7 +52,7 @@
 const product = {
     name: "Parker Jotter",
     rating: 4,
-    price: 300,
+    price: 350,
     offer: 5
 };
 
