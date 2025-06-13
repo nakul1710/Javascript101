@@ -35,7 +35,70 @@
 
 //while loops
 
-let i = 0;
-while(i<=5){
-  console.log("i =",i);
-}
+// let i = 0;
+// while(i<=5){
+//   console.log("i =",i);
+//   i++;
+// }
+
+
+// do-while loop
+
+// let i = 1;
+// do{
+//    console.log("i =",i);
+//    i++;
+// }while( i<= 5);
+
+//for-of loop
+// let str = "London";
+// let size = 0;
+// for (let i of str){
+//     console.log(i);
+//     size++;
+// }
+
+// console.log("String size = ",size);
+
+//for in loop
+
+// let student = {
+//     name : "Nakul Yadav",
+//     age: 20,
+//     cgpa: 8.2,
+//     isPass: true
+// };
+
+// for(let key in student){
+//     console.log("key =",key,"value =",student[key]);
+// }
+
+
+//practice questions
+
+//q1)print all even numbers from 0-100
+
+// for (let num = 0; num<=100; num++){
+//     if(num%2 == 0){
+//         console.log("Num = ",num);
+//     }
+// }
+
+
+//q2)
+
+// let gameNum = 25;
+// let userNum = prompt("Enter the game Number: ");
+
+// while(userNum !== gameNum){
+//     console.log("you entered wrong game number");
+// }
+// console.log("Congratulations , you entered right number");
+
+
+
+
+
+
+
+
