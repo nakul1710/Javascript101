@@ -99,26 +99,40 @@
 
 //strings: sequence of chracters  used to represent text.
 
-let str = "ApnaCollege";
-let str2 = "college";
+// let str = "ApnaCollege";
+// let str2 = "college";
 
-console.log((str+str2).length);
-console.log(str[4]);
-
-
-//template literals
-
-let specialString = `This is template string`;
-console.log(typeof specialString);
+// console.log((str+str2).length);
+// console.log(str[4]);
 
 
+//template literals : way to embedded expressions by back tick.
 
-let obj = {
-    item : 'pen',
-    price: '100',
-}
+// let specialString = `This is template string`;
+// console.log(typeof specialString);
 
-console.log("The cost of",obj.item,"is",obj.price);
+
+
+// let obj = {
+//     item : 'pen',
+//     price: '100',
+// }
+
+// console.log("The cost of",obj.item,"is",obj.price);
+// console.log(`The cost of ${obj.item} is ${obj.price} rupees`);
+
+
+console.log("Nakul\nYadav"); //next line
+console.log("Nakul\tYadav"); //tab space
+
+let str = "nakul\nyadav";
+let str2 = "nakul\tyadav";
+
+console.log(str.length);
+console.log(str2.length);
+
+
+
 
 
 
